@@ -239,3 +239,150 @@ font-size: 18px;}
  background-color: #d3ebfc;
  padding: 15px;
  align-items: center; }
+
+/* Blog*/
+ #news
+ { margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fbe6ef;
+flex-direction: column;}
+ #news img
+ {float: left;
+  margin: 10px;}
+ #news h3 p
+{float: right;}
+ #news h2
+  { font-size: 28px;
+   color: blue; }
+
+#low-sec
+{display: flex;
+  justify-content: space-between;}
+ #blog_post
+  { display: flex;
+ flex-wrap: wrap;
+ flex direction: row;
+width: 70%;
+height: 1300px;
+justify-content: center;
+margin-left: 3px;}
+#blog-post1 p
+{text-align: center;}
+#blog-post2 p
+{text-align: center;}
+#blog-post3 p
+{text-align: center;}
+#blog-post4 p
+{text-align: center;}
+#blog-post1 h3
+{text-align: center;}
+#blog-post2 h3
+{text-align: center;}
+#blog-post3 h3
+{text-align: center;}
+#blog-post4 h3
+{text-align: center;}
+#blog-post1 h3
+{text-align: center;}
+#top_post
+{ display: flex;
+  background-color: #FFECCF;
+  width: 1000px;
+    height: 650px;
+ padding-left: 20px;}
+#blog-post1
+{ display: flex;
+ flex-direction: column;
+ width: 450px; 
+float: left;
+padding: 15px;}
+#blog-post2
+{ display: flex;
+ flex-direction: column;
+ width: 450px;
+ float:right;
+padding: 15px;
+margin-right: 20px;}
+#bot_post
+{ display: flex;
+  background-color: #FFECCF;
+  width: 1000px;
+    height: 600px;
+ padding-left: 20px;}
+ #blog-post3
+{ display: flex;
+ flex-direction: column;
+ width: 450px; 
+float: left;
+padding: 15px;
+  }
+ #blog-post4
+{ display: flex;
+ flex-direction: column;
+ width: 450px;
+ float:right;
+padding: 15px;
+margin-right: 20px;
+ }
+
+ #about_me
+ { display: flex;
+ float: right;
+ flex-direction: column;
+height: 840px;
+width: 25%;
+align-items: center;
+margin-top: 50px; }
+#about_me img
+ {
+  border-radius: 50%;
+}
+#subcribe2
+{margin-top:50px;
+ display: flex;
+ flex-direction: column;
+align-items: center;
+}
+ /*contact page*/
+#contact
+{display: flex;
+margin-top: 80px;}
+#contact_image
+{display: flex;
+flex-direction: row;
+opacity: 0.7;
+width: }
+#info
+{position: absolute;
+ min-width: 200px;
+ min-height: 200px;
+ padding: 100px;
+ left: 0;
+ top: 50%;
+}
+#form
+{display: flex;
+ flex-direction: column; 
+ position: absolute;
+ width: 200px;
+ min-height: 500px;
+ right: 0;
+ top: 30%;
+padding-right: 350px;
+padding-top: 200px;}
+#form label {
+    float: left;
+    width: 200px;
+    
+}
+ 
+#form input {
+    float: left;
+    ;
+}
+ 
+#form button {
+    float: right;
+    
