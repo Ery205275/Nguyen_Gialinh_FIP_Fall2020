@@ -1,0 +1,388 @@
+.hidden
+{
+	display: none;
+}
+
+#button
+{ text-align: center;
+	color: white;
+    background-color: black;
+    width: 80px;
+    height: 20px;
+     }
+  /* main page*/
+#heading
+{ position: relative;
+  display: inline-block;
+  justify-content: space-between;
+  align-content: center}
+ #logo 
+ { position: absolute }
+ #wallpaper
+ {margin-left: 152px;}
+#search-sec
+{ position: absolute;
+ width: 150px;
+ height: 30px;
+ margin-right: 40px;
+ right: 0;
+ top: 0%; }
+#navCon
+{ background-color:#d9c493;
+  width: 100%;
+  height: 48px;
+  position: absolute;
+  display: row;
+  flex-direction: column-reverse;
+  left: 0;
+  top: 95%;
+  margin-top: 8px;}
+ #navCon ul
+ { display: flex;
+ 	margin-left: 152px;}
+ #navCon ul li
+ { width: auto;
+   float: left; 
+   margin-right: 50px;
+   font-family: Arial;
+   font-size: 14px;}
+
+
+#divide
+{   background-color: #FFECCF;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+	height: 100px;
+	width: 700px;  }
+#divide h2 
+{ display: flex;
+  align-items: center;
+  font-size: 36px; }
+
+#main_sec p
+{ align-items: center;
+	display: flex;
+	justify-content: center; }
+.quote 
+{font-family: Apple Chancery;
+ font-style: italic;
+ font-size: 24px; }
+ .name
+ {opacity: 50%}
+
+.slider 
+{ width: 760px;
+  height: 950px;
+  display: flex;
+  margin-top: 20px;
+  margin-left: auto;
+    margin-right: auto;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; }
+.slide 
+{  width: 760px;
+  flex-shrink: 0;
+  height: 950px;
+  scroll-behavior: smooth;}
+
+#about
+  {position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width:100%;
+ background-color: #FFECCF;
+ padding-top: 50px; }
+ #ginger
+ {	left:1;
+    width:400px;}
+ #fish-sauce
+ {  right:1;
+    width:400px;}
+ #aboutg
+ { position: absolute;
+  text-align: center; 
+  width: 380px;
+  top: 75%;
+  color: white;}
+ #aboutf
+ { position: absolute;
+  text-align: center; 
+  width: 380px;
+  top: 75%; 
+  color: #929292;}
+  #mom_text
+  {display: flex;
+  justify-content: center;
+  align-content: center;
+  width:100%;
+ background-color: #FFECCF}
+
+ #bot-sec
+ {display: flex;
+  justify-content: space-between;}
+ #blog 
+ { display: flex;
+ flex-direction: column;
+ column-span: 50px;
+ background-color: #fbe6ef;
+ position: relative;
+width: 50%;
+height: 840px;
+float: left;
+margin-top: 50px;
+padding-left: 20px; }
+#blog img
+{float:left; }
+#blog h5 p
+{float: right;}
+ #blog h5
+ {font-size: 18px}
+ #blog2
+ {padding-top: 60px;}
+ #blog3
+ {padding-top: 60px;}
+
+
+
+#subcribe
+{ margin-top:50px;
+ display: flex;
+ float: right;
+ flex-direction: column;
+ background-color: #d3ebfc;
+height: 840px;
+width: 50%;
+align-items: center;
+justify-content: center;}
+#subcribe h2
+{display: flex;
+font-size: 28px;
+padding-bottom: 20px;}
+#subcribe input
+{display:flex;
+}
+
+#footer
+{ display:flex;
+width: 100%;
+height: 80px;
+background-color: #d9c493;
+ align-items: center;
+margin-top: 20px;}
+
+#footer ul li
+ { float: right; 
+   margin-right: 50px;
+   font-family: Arial;
+   font-size: 14px;}
+
+/*About us*/
+#about_us
+{ margin-top: 80px;
+  width: 100%;
+  min-height: 600px;
+  justify-content: space-between;
+  }
+#top_about
+{ width:100%; 
+  height:300px;}
+#Ginger
+{flex-wrap: nowrap;
+ width: 49%;
+ float: left; 
+margin: 2px;}
+ #Fish-sauce
+{ margin: 2px;
+flex-wrap: nowrap;
+ width: 49%;
+ float: right;
+  }
+ #Ginger img
+ {float: right;}
+ #Fish-sauce img
+ {float: left;}
+ 
+#bot_about
+{width:100%; 
+  height:300px; }
+ #gia
+ {width: 49%;
+ float: left; 
+margin: 2px;
+margin-top: 50px;}
+#piggies
+{margin: 2px;
+flex-wrap: nowrap;
+ width: 49%;
+ float: right;
+margin-top: 50px;}
+#piggies img
+ {float: right;}
+#gia img
+ {float: left;}
+
+ #socialmedia
+ { display: flex;
+ justify-content: center; }
+#socialmedia input
+{ padding: 10px; 
+font-size: 18px;}
+
+#daily_pics
+{display: flex;
+ justify-content: center;
+ background-color: #d3ebfc;
+ padding: 15px;
+ align-items: center; }
+
+/* Blog*/
+ #news
+ { margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fbe6ef;
+flex-direction: column;}
+ #news img
+ {float: left;
+  margin: 10px;}
+ #news h3 p
+{float: right;}
+ #news h2
+  { font-size: 28px;
+   color: blue; }
+
+#low-sec
+{display: flex;
+  justify-content: space-between;}
+ #blog_post
+  { display: flex;
+ flex-wrap: wrap;
+ flex direction: row;
+width: 70%;
+height: 1300px;
+justify-content: center;
+margin-left: 3px;}
+#blog-post1 p
+{text-align: center;}
+#blog-post2 p
+{text-align: center;}
+#blog-post3 p
+{text-align: center;}
+#blog-post4 p
+{text-align: center;}
+#blog-post1 h3
+{text-align: center;}
+#blog-post2 h3
+{text-align: center;}
+#blog-post3 h3
+{text-align: center;}
+#blog-post4 h3
+{text-align: center;}
+#blog-post1 h3
+{text-align: center;}
+#top_post
+{ display: flex;
+  background-color: #FFECCF;
+  width: 1000px;
+    height: 650px;
+ padding-left: 20px;}
+#blog-post1
+{ display: flex;
+ flex-direction: column;
+ width: 450px; 
+float: left;
+padding: 15px;}
+#blog-post2
+{ display: flex;
+ flex-direction: column;
+ width: 450px;
+ float:right;
+padding: 15px;
+margin-right: 20px;}
+#bot_post
+{ display: flex;
+  background-color: #FFECCF;
+  width: 1000px;
+    height: 600px;
+ padding-left: 20px;}
+ #blog-post3
+{ display: flex;
+ flex-direction: column;
+ width: 450px; 
+float: left;
+padding: 15px;
+  }
+ #blog-post4
+{ display: flex;
+ flex-direction: column;
+ width: 450px;
+ float:right;
+padding: 15px;
+margin-right: 20px;
+ }
+
+ #about_me
+ { display: flex;
+ float: right;
+ flex-direction: column;
+height: 840px;
+width: 25%;
+align-items: center;
+margin-top: 50px; }
+#about_me img
+ {
+  border-radius: 50%;
+}
+#subcribe2
+{margin-top:50px;
+ display: flex;
+ flex-direction: column;
+align-items: center;
+}
+ /*contact page*/
+#contact
+{display: flex;
+margin-top: 80px;}
+#contact_image
+{display: flex;
+flex-direction: row;
+opacity: 0.7;
+width: }
+#info
+{position: absolute;
+ min-width: 200px;
+ min-height: 200px;
+ padding: 100px;
+ left: 0;
+ top: 50%;
+}
+#form
+{display: flex;
+ flex-direction: column; 
+ position: absolute;
+ width: 200px;
+ min-height: 500px;
+ right: 0;
+ top: 30%;
+padding-right: 350px;
+padding-top: 200px;}
+#form label {
+    float: left;
+    width: 200px;
+    
+}
+ 
+#form input {
+    float: left;
+    ;
+}
+ 
+#form button {
+    float: right;
+    
