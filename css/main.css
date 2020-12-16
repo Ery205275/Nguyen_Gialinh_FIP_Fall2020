@@ -180,3 +180,62 @@ margin-top: 20px;}
    margin-right: 50px;
    font-family: Arial;
    font-size: 14px;}
+
+/*About us*/
+#about_us
+{ margin-top: 80px;
+  width: 100%;
+  min-height: 600px;
+  justify-content: space-between;
+  }
+#top_about
+{ width:100%; 
+  height:300px;}
+#Ginger
+{flex-wrap: nowrap;
+ width: 49%;
+ float: left; 
+margin: 2px;}
+ #Fish-sauce
+{ margin: 2px;
+flex-wrap: nowrap;
+ width: 49%;
+ float: right;
+  }
+ #Ginger img
+ {float: right;}
+ #Fish-sauce img
+ {float: left;}
+ 
+#bot_about
+{width:100%; 
+  height:300px; }
+ #gia
+ {width: 49%;
+ float: left; 
+margin: 2px;
+margin-top: 50px;}
+#piggies
+{margin: 2px;
+flex-wrap: nowrap;
+ width: 49%;
+ float: right;
+margin-top: 50px;}
+#piggies img
+ {float: right;}
+#gia img
+ {float: left;}
+
+ #socialmedia
+ { display: flex;
+ justify-content: center; }
+#socialmedia input
+{ padding: 10px; 
+font-size: 18px;}
+
+#daily_pics
+{display: flex;
+ justify-content: center;
+ background-color: #d3ebfc;
+ padding: 15px;
+ align-items: center; }
